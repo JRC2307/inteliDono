@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="aa8e9ad6-f1c0-4ccd-b328-147e900e4fd5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.ipynb_checkpoints/intelliDono-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../.ipynb_checkpoints/intelliDono-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parseTS.py" beforeDir="false" afterPath="$PROJECT_DIR$/parseTS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../intelliDono.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../intelliDono.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../small_tree.dot" beforeDir="false" afterPath="$PROJECT_DIR$/../small_tree.dot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tree.dot" beforeDir="false" afterPath="$PROJECT_DIR$/../tree.dot" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,13 +24,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="6" />
-          <entry key="py" value="2" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="2" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -49,13 +48,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/parseTS.py">
+        <entry file="file://$PROJECT_DIR$/../intelliDono.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="108" column="21" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/senv/Lib/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -73,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-233" />
     <option name="y" value="112" />
     <option name="width" value="1939" />
@@ -100,7 +105,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../intelliDono.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -115,7 +120,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.intelliDono">
+    <configuration name="intelliDono" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="donutByDay" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../intelliDono.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="parseTS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="donutByDay" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,8 +163,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.parseTS" />
+      <item itemvalue="Python.intelliDono" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.intelliDono" />
         <item itemvalue="Python.parseTS" />
       </list>
     </recent_temporary>
@@ -205,11 +236,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/parseTS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="612">
           <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/intelliDono.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/senv/Lib/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../intelliDono.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="108" column="21" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
         </state>
       </provider>
     </entry>
