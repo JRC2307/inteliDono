@@ -46,3 +46,13 @@ On the other hand, we also analyze counterexamples in which K-Means can throw in
 In this case, at first glace we can see that there's two clusters, one that is the circle in the middle, and the other one is the circle on the outside. But since K-Means is a non-deterministic algorithm the results may vary and bring wrong results: it may sometimes place the random first random centroids in non-conveninent place, or even there are some problems like this one, where placing the new centroids in the mean of the data points will result in having our data clustered like the one this example.
 
 ### Conclusion and future work
+K Means can be a very good algorithm for classifying numerical data, it can give a good idea of how the elements in the dataset are related. This can be applied to different kinds of projects in different areas. Such as image compression, robot vision and astronomy.
+
+There are many considerations to take when implementing K Means, mainly having in mind that it is not a deterministic algorithm, it can come up with different solutions for each execution at times. And it can also fail at placing the centroids depending on the type of dataset used, in those cases we recommend using varations of K Means, such as K Means++.
+
+Also, the K Means implementation in this project could be improved by finding a way to automatically calculate the number of clusters present in the data without the need of the user entering it.
+
+### References
+Trevino, A. (n.d.). Introduction to K-means Clustering. Retrieved from https://www.datascience.com/blog/k-means-clustering
+
+Forgy, E. W. (1965). Cluster analysis of multivariate data: efficiency vs interpretability of classifications. Biometrics, 21, 768--769.
