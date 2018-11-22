@@ -45,6 +45,7 @@ After installing the libraries go into the folder the project is located and run
 While inside Jupyter Notebook click on the **.ipynb** project and click on the double arrow to run it.
 
 ### Analysis
+#### Donuts analysis
 After looking and understanding at the results for the doughnut business we noticed that the amount of data was:
   1. Very little, since it only had 140 days worth of data.
   2. Didn't have enough features to be able to categorize the information correctly.
@@ -60,4 +61,14 @@ In order to improve this experiment we believe we first need to improve the data
     - Two weeks ago same day sales
     - A year ago same day sales
 
-We believe this information will provide a better accuracy when predicting the amount of product that will be needed on a certain day to reduce the amount of waste that the business produces.
+We believe this information will provide a better accuracy/results when predicting the amount of product that will be needed on a certain day to reduce the amount of waste that the business produces.
+
+#### Wine quality prediction
+This problem was really interesting, this is because after getting the importance table, we came out to the conclusion that the level of alcohol in the wine is directly related to its quality. As we can see in the next image:
+
+![alt text](wineImportance.PNG "Logo Title")
+
+According to this information, the more alcohol a wine has, the more likely it is to be of good quality and the predictions made by our algorithm reveal the same conclusion. The more alcohol, the more quality prediction.
+![alt text](winePrediction.PNG "Logo Title")
+
+Anyway, the model it's still vague, the results should be returned in integer values. We also agree that the quality of the wine can be kind of subjective because it is a matter of tastes.
